@@ -15,4 +15,5 @@ jobs:
           node-version: ${{ matrix.node }}
       - uses: actions/checkout@v3
       - name: Run TestCafe Tests
+        run: npm install
         run: npm run tests
