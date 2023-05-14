@@ -8,7 +8,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest]
-        node: [16, 18]
+        node: [node16, node18]
     steps:
       - uses: actions/setup-node@v1
         with:
