@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "testcafe chrome,firefox test/"
+    "tests": "testcafe chrome:headless,firefox:headless test/"
   },
   "author": "Eduardo",
   "license": "ISC",
