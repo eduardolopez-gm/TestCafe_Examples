@@ -3,7 +3,7 @@ fixture('test hooks')
     .page('https://www.saucedemo.com/')
     .beforeEach(async t =>{
         await t
-        .maximizeWindow()
+        //.maximizeWindow()
         .setTestSpeed(0.1)
         .setPageLoadTimeout(0)
     })
