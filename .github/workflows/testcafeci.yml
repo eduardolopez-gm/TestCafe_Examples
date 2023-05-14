@@ -8,12 +8,12 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest]
-        node: [node16, node18]
+        node: [16, 18]
     steps:
       - uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node }}
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
       - name: Run TestCafe Tests
         uses: DevExpress/testcafe-action@latest
         with:
