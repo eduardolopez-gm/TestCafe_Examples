@@ -1,0 +1,19 @@
+{
+  "name": "testcafe",
+  "version": "1.0.0",
+  "description": "practice",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "testcafe chrome,firefox test/"
+  },
+  "author": "Eduardo",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "testcafe": "^2.6.0"
+  }
+}
